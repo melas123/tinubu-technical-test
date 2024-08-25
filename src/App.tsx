@@ -1,7 +1,9 @@
 import { ThemeProvider } from "@emotion/react";
-import SearchAppBar from "./layout/app-bar/SearchAppBar";
 import { createTheme } from "@mui/material";
 import "./App.css";
+import SearchAppBar from "./layout/app-bar/SearchAppBar";
+import Sidebar from "./layout/side-bar/Sidebar";
+import MainRoutes from "./routes/MainRoutes";
 
 const theme = createTheme({
   palette: {
@@ -19,6 +21,8 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <SearchAppBar />
+        <Sidebar />
+        <MainRoutes />
       </ThemeProvider>
     </>
   );
