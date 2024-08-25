@@ -4,6 +4,18 @@
     "lib": ["ES2023"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["./src/assets/*"],
+      "@config/*": ["./src/config/*"],
+      "@components/*": ["./src/components/*"],
+      "@sections/*": ["./src/sections/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@models/*": ["./src/models/*"],
+      "@customTypes/*": ["./src/types/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@public/*": ["./public/*"],
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
