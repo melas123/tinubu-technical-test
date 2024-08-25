@@ -1,3 +1,4 @@
+import "@config/i18n/i18n-init";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";

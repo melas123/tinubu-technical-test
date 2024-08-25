@@ -1,3 +1,24 @@
 {
-   
+    "issue_proposal": "Issue the proposal",
+    "managing_broker": "Managing Broker",
+    "proposal": "Proposal",
+    "proposals": "Proposals",
+    "quotation": "Quotation",
+    "quotations": "Quotations",
+    "address": "Address",
+    "city": "City",
+    "country": "Country",
+    "add_manually": "Add manually",
+    "legal_name": "Legal name",
+    "parties": "PARTIES",
+    "coverage": "COVERAGE",
+    "premium": "PREMIUM",
+    "fees": "FEES",
+    "discretionary_credit_limit": "DISCRETIONARY CREDIT LIMIT",
+    "claims": "CLAIMS",
+    "political_risk": "POLITICAL RISK",
+    "broker_added": "Broker added successfully",
+    "name": "Name",
+    "save": "Save",
+    "cancel": "Cancel"
 }
