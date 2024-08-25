@@ -1,10 +1,23 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["./src/assets/*"],
+      "@config/*": ["./src/config/*"],
+      "@components/*": ["./src/components/*"],
+      "@sections/*": ["./src/sections/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@models/*": ["./src/models/*"],
+      "@customTypes/*": ["./src/types/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@public/*": ["./public/*"],
+    },
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    
 
     /* Bundler mode */
     "moduleResolution": "bundler",
